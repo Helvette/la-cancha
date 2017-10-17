@@ -1,0 +1,103 @@
+body {
+	display: table;
+	margin: auto;
+}
+
+h1, hr {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #6E6E74;
+	font-family: "Roboto Slab", serif;
+}
+
+footer {
+	color: #6E6E74;
+	text-align: right;
+}
+
+a:link {
+	text-decoration: none;
+	color: #5E5E63;
+}
+
+a:hover {
+	color: black;
+	font-style: italic;
+}
+
+a:visited {
+	color: black;
+}
+
+#la-cancha {
+	width: 1000px;
+	height: 500px;
+	background-color: #8cb27c;
+}
+
+
+#borde {
+	width: 960px;
+	height: 460px;
+	border: 5px solid white;
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+#arco1 {
+	width: 95px;
+	height: 190px; /*ANCHO*/
+	border-right: 5px solid white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	position: absolute;
+	left: 0;
+	top: 130px;
+
+}
+
+#arco2 {
+	width: 95px;
+	height: 190px;
+	border-left: 5px solid white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	position: absolute;
+	right: 0;
+	top: 130px;
+}
+
+#centro {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+img {
+	position: absolute;
+}
+
+#uno {
+	top: 135px;
+	left: 80px;
+}
+
+#dos {
+	top: 60px;
+	left: 490px;
+}
+
+#tres {
+	top: 290px;
+	left: 825px;
+}
